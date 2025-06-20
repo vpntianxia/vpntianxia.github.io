@@ -1,4 +1,4 @@
-# VPN天下 | 6月18日19.6M/S|免费Shadowrocket/Clash/SSR/V2ray订阅机场  更新时间 2025-06-18 09:20:09
+# VPN天下 | 6月20日20.6M/S|免费Shadowrocket/Clash/V2ray/SSR订阅机场  更新时间 2025-06-20 10:23:51
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://vpntianxia.github.io" target="_blank">点击跳转</a>
 
 ## clash使用教程：
@@ -9,23 +9,23 @@
 
 ### Clash订阅链接
 
-- https://vpntianxia.github.io/uploads/2025/06/0-20250618.yaml
-- https://vpntianxia.github.io/uploads/2025/06/1-20250618.yaml
-- https://vpntianxia.github.io/uploads/2025/06/2-20250618.yaml
-- https://vpntianxia.github.io/uploads/2025/06/3-20250618.yaml
-- https://vpntianxia.github.io/uploads/2025/06/4-20250618.yaml
+- https://vpntianxia.github.io/uploads/2025/06/0-20250620.yaml
+- https://vpntianxia.github.io/uploads/2025/06/1-20250620.yaml
+- https://vpntianxia.github.io/uploads/2025/06/2-20250620.yaml
+- https://vpntianxia.github.io/uploads/2025/06/3-20250620.yaml
+- https://vpntianxia.github.io/uploads/2025/06/4-20250620.yaml
 
 ### V2ray订阅链接
 
-- https://vpntianxia.github.io/uploads/2025/06/0-20250618.txt
-- https://vpntianxia.github.io/uploads/2025/06/1-20250618.txt
-- https://vpntianxia.github.io/uploads/2025/06/2-20250618.txt
-- https://vpntianxia.github.io/uploads/2025/06/3-20250618.txt
-- https://vpntianxia.github.io/uploads/2025/06/4-20250618.txt
+- https://vpntianxia.github.io/uploads/2025/06/0-20250620.txt
+- https://vpntianxia.github.io/uploads/2025/06/1-20250620.txt
+- https://vpntianxia.github.io/uploads/2025/06/2-20250620.txt
+- https://vpntianxia.github.io/uploads/2025/06/3-20250620.txt
+- https://vpntianxia.github.io/uploads/2025/06/4-20250620.txt
 
 ### Sing-box订阅链接
 
-- https://vpntianxia.github.io/uploads/2025/06/20250618.json
+- https://vpntianxia.github.io/uploads/2025/06/20250620.json
 
 ## 更多clash节点订阅 ：
 
