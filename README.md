@@ -1,4 +1,4 @@
-# VPN天下 - 9月5日21.8M/S|免费SSR/V2ray/Clash/Shadowrocket节点推荐，V2rayC梯子购买推荐  更新时间 2025-09-05 08:49:48
+# VPN天下 - 9月11日22.9M/S|免费Clash/V2ray/SSR/Shadowrocket节点推荐，V2rayC梯子购买推荐  更新时间 2025-09-11 09:55:05
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://vpntianxia.github.io" target="_blank">点击跳转</a>
 
 ## clash使用教程：
@@ -9,23 +9,23 @@
 
 ### Clash订阅链接
 
-- https://vpntianxia.github.io/uploads/2025/09/0-20250905.yaml
-- https://vpntianxia.github.io/uploads/2025/09/1-20250905.yaml
-- https://vpntianxia.github.io/uploads/2025/09/2-20250905.yaml
-- https://vpntianxia.github.io/uploads/2025/09/3-20250905.yaml
-- https://vpntianxia.github.io/uploads/2025/09/4-20250905.yaml
+- https://vpntianxia.github.io/uploads/2025/09/0-20250911.yaml
+- https://vpntianxia.github.io/uploads/2025/09/1-20250911.yaml
+- https://vpntianxia.github.io/uploads/2025/09/2-20250911.yaml
+- https://vpntianxia.github.io/uploads/2025/09/3-20250911.yaml
+- https://vpntianxia.github.io/uploads/2025/09/4-20250911.yaml
 
 ### V2ray订阅链接
 
-- https://vpntianxia.github.io/uploads/2025/09/0-20250905.txt
-- https://vpntianxia.github.io/uploads/2025/09/1-20250905.txt
-- https://vpntianxia.github.io/uploads/2025/09/2-20250905.txt
-- https://vpntianxia.github.io/uploads/2025/09/3-20250905.txt
-- https://vpntianxia.github.io/uploads/2025/09/4-20250905.txt
+- https://vpntianxia.github.io/uploads/2025/09/0-20250911.txt
+- https://vpntianxia.github.io/uploads/2025/09/1-20250911.txt
+- https://vpntianxia.github.io/uploads/2025/09/2-20250911.txt
+- https://vpntianxia.github.io/uploads/2025/09/3-20250911.txt
+- https://vpntianxia.github.io/uploads/2025/09/4-20250911.txt
 
 ### Sing-box订阅链接
 
-- https://vpntianxia.github.io/uploads/2025/09/20250905.json
+- https://vpntianxia.github.io/uploads/2025/09/20250911.json
 
 ## 更多clash节点订阅 ：
 
