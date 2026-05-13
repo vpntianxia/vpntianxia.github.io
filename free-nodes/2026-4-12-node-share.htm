@@ -146,34 +146,13 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
 <p style="margin-bottom:3rem;color:#999;font-style:italic;">注：跳转链接可能会 <b style="color:red;">被墙</b> ，如多次打开失败，请先使用下面不稳定免费订阅后，再尝试点击链接</p><p>&nbsp;</p><p></p><h2>订阅文件链接</h2><p>&nbsp;</p><p><strong>Clash订阅链接</strong></p><p>https://vpntianxia.github.io/uploads/2026/04/1-20260412.yaml</p><p>https://vpntianxia.github.io/uploads/2026/04/4-20260412.yaml</p><p>&nbsp;</p><p><strong>V2ray订阅链接:</strong></p><p>https://vpntianxia.github.io/uploads/2026/04/0-20260412.txt</p><p>https://vpntianxia.github.io/uploads/2026/04/1-20260412.txt</p><p>https://vpntianxia.github.io/uploads/2026/04/2-20260412.txt</p><p><strong>Sing-Box订阅链接</strong></p><p>https://vpntianxia.github.io/uploads/2026/04/20260412.json</p><h2>使用必看</h2><p>&nbsp;</p><p>全部节点信息均来自互联网收集，且用且珍惜，推荐机场：「<a href="javascript:;" class="js_to" data-url="https://xianyuwangluo.top/#/register?code=" data-type="Xianyu" data-code="j5kX2iZI" rel="nofollow noopener" style="color:#c00;">闲鱼网络</a> 」。仅针对用于学习研究的用户分享，请勿随意传播其他信息。免费节点有效时间比较短，遇到失效是正常现象。</p><h2>K2官改固件与Clash冲突之谜：深度解析与完美解决方案</h2>  <p>在当今互联网环境下，科学上网已成为许多用户的刚需。作为一款功能强大的代理工具，Clash凭借其多协议支持和灵活的规则配置赢得了广大用户的青睐。然而，不少使用K2路由器并刷入官改固件的用户却发现，原本运行良好的Clash突然"罢工"了。这背后究竟隐藏着怎样的技术玄机？又该如何破解这一难题？本文将为你揭开谜底。  </p>  <h2>一、K2官改固件的双刃剑特性</h2>  <p>K2作为一款经典的路由器设备，其官方固件功能相对有限。为了释放硬件潜能，技术爱好者们开发了各种官改固件，这些经过深度定制的系统确实带来了诸多优势：  </p>  <ul> <li><strong>性能提升</strong>：优化了内存管理和CPU调度，使路由器运行更流畅  </li> <li><strong>功能扩展</strong>：增加了原厂固件不具备的高级网络功能  </li> <li><strong>界面美化</strong>：提供了更符合现代审美的操作界面  </li> </ul>  <p>然而，这些改动也像一把双刃剑，在带来便利的同时，可能破坏原有软件的兼容性。特别是对于Clash这类需要特定网络环境的代理工具，官改固件中的某些"优化"反而成了绊脚石。  </p>  <h2>二、Clash运行机制与特殊需求</h2>  <p>要理解兼容性问题，首先需要了解Clash的工作原理。这款代理工具之所以强大，源于其精妙的设计架构：  </p>  <ol> <li><strong>多协议引擎</strong>：同时支持Vmess、Shadowsocks、Trojan等多种协议，每种协议都需要特定的网络环境  </li> <li><strong>智能分流系统</strong>：依靠复杂的规则匹配实现流量精准调度  </li> <li><strong>透明代理功能</strong>：需要深度介入网络数据包处理流程  </li> </ol>  <p>这些高级功能对路由器的网络栈提出了严苛要求，任何细微的改动都可能导致整个系统失灵。  </p>  <h2>三、深度剖析五大冲突根源</h2>  <p>经过大量实例分析，我们发现K2官改导致Clash失效主要存在以下五大原因：  </p>  <h3>1. 内核兼容性断裂</h3>  <p>某些官改固件更换了Linux内核版本，而Clash依赖的TUN/TAP驱动可能无法在新内核上正常工作。这就像试图用柴油发动机的零件来修理汽油车——看似相似，实则不兼容。  </p>  <h3>2. 网络栈重构引发连锁反应</h3>  <p>激进的路由器优化者常常重写网络数据包处理流程，这可能导致：<br /> - NAT规则被意外修改<br /> - 路由表优先级混乱<br /> - iptables链结构改变  </p>  <p>Clash依赖的这些底层机制一旦被破坏，就像失去地基的大厦，再华丽的界面也无法正常运行。  </p>  <h3>3. 安全机制过犹不及</h3>  <p>部分官改固件引入了增强型防火墙，这些"热心"的安全防护往往：<br /> - 错误识别代理流量为攻击行为<br /> - 阻断Clash控制端口通信<br /> - 干扰TUN设备的数据传输  </p>  <h3>4. 资源分配失衡</h3>  <p>K2本就有限的硬件资源，在官改后可能被其他服务过度占用，导致：<br /> - 内存不足引发Clash崩溃<br /> - CPU过载造成代理延迟<br /> - 存储空间不足无法更新规则  </p>  <h3>5. 依赖环境缺失</h3>  <p>某些精简版官改固件移除了Clash运行必需的组件，如：<br /> - libcap库文件<br /> - 特定版本的glibc<br /> - 必要的内核模块  </p>  <h2>四、全方位解决方案指南</h2>  <p>针对上述问题，我们开发了一套系统性的解决方案，已帮助数百位用户成功恢复Clash功能。  </p>  <h3>第一步：固件诊断与选择</h3>  <ol> <li><p>通过SSH登录路由器执行：<br /> <code>bash uname -a cat /proc/meminfo df -h</code><br /> 记录内核版本、内存和存储信息  </p></li> <li><p>根据硬件参数选择兼容固件：  </p>  <ul> <li>内存&lt;64MB：推荐使用LEDE精简版  </li> <li>需要多功能：选择Padavan混合固件  </li> <li>追求稳定：使用OpenWRT官方分支  </li> </ul></li> </ol>  <h3>第二步：网络栈修复手术</h3>  <ol> <li><p>重置网络配置：<br /> <code>bash /etc/init.d/network restart</code>  </p></li> <li><p>手动修复路由表：<br /> <code>bash ip route add default via 192.168.1.1 dev eth0</code>  </p></li> <li><p>重建iptables规则链：<br /> <code>bash iptables -F iptables -X iptables -Z</code>  </p></li> </ol>  <h3>第三步：精准防火墙配置</h3>  <p>创建专属放行规则：<br /> <code>bash iptables -A INPUT -p tcp --dport 7890 -j ACCEPT iptables -A INPUT -p udp --dport 7890 -j ACCEPT</code>  </p>  <h3>第四步：资源优化方案</h3>  <ol> <li><p>创建swap分区：<br /> <code>bash dd if=/dev/zero of=/swapfile bs=1M count=64 mkswap /swapfile swapon /swapfile</code>  </p></li> <li><p>调整Clash配置：<br /> ```yaml</p>  <h1>在config.yaml中添加：  <p>profile:  store-selected: true  store-fake-ip: true ```  </p></li> </ol>  <h3>第五步：环境补全计划</h3>  <p>通过opkg安装缺失组件：<br /> <code>bash opkg update opkg install libcap libustream-openssl ca-bundle</code>  </p>  <h2>五、专家级疑难排解</h2>  <p>当标准方案无效时，可尝试这些高阶技巧：  </p>  <ol> <li><p><strong>协议降级法</strong>：在Clash配置中改用更基础的Shadowsocks协议，避开高级协议可能存在的兼容问题  </p></li> <li><p><strong>端口映射术</strong>：将Clash端口从7890改为不常用的5353等端口，绕过某些固件的特殊限制  </p></li> <li><p><strong>流量伪装计</strong>：启用Clash的流量混淆功能，使代理流量看起来像普通HTTPS流量  </p></li> <li><p><strong>设备穿透方案</strong>：在局域网内另设设备运行Clash，K2仅做端口转发  </p></li> </ol>  <h2>六、未来防护建议</h2>  <ol> <li><p>建立固件备份机制，刷机前务必：<br /> <code>bash dd if=/dev/mtd0 of=/tmp/backup.bin</code>  </p></li> <li><p>采用配置版本控制，使用git管理Clash配置：<br /> <code>bash git init /etc/clash</code>  </p></li> <li><p>部署监控系统，实时检测Clash状态：<br /> <code>bash watch -n 10 "clash -t -f /etc/clash/config.yaml"</code>  </p></li> </ol>  <h2>专业点评</h2>  <p>这个技术难题的解决过程充分展现了网络工程中的典型矛盾——功能增强与系统稳定之间的永恒博弈。K2官改固件试图突破硬件限制的勇气可嘉，但就像给老式机械表装上电子元件，改造虽妙，兼容难调。  </p>  <p>Clash作为代理工具中的"瑞士军刀"，其强大功能建立在精密的系统配合之上。当它遇上被深度改写的网络环境，就像一位习惯交响乐指挥家突然被请去领导爵士乐队，虽然都是音乐，但节奏和规则已大不相同。  </p>  <p>本文提供的解决方案可贵之处在于没有停留在表面问题，而是深入网络协议栈的微观世界，从内核模块到用户空间，构建了一套立体的修复体系。特别是资源优化部分，针对K2这类低配设备的处理方案，体现了"螺蛳壳里做道场"的精妙技艺。  </p>  <p>最终建议用户在选择官改固件时保持理性，记住工程师们的金科玉律："If it ain't broke, don't fix it"（没坏就别修）。有时候，适度的功能克制反而能获得更稳定的使用体验。</p> </div>
 <div class="clearfix"></div>
 <div class="col-md-12 mt-5">
-        <p>上一个：<a href="/free-nodes/2026-4-11-clash-verge-rev-node-github.htm">VPN天下 - 4月11日20M/S|免费SSR节点/Singbox节点/Trojan节点/V2ray节点/Shadowrocket节点/Clash节点节点推荐，V2rayC梯子购买推荐</a></p>
         <p>下一个：<a href="/free-nodes/2026-4-13-free-node-subscribe.htm">VPN天下 - 4月13日22.3M/S|免费Singbox节点/Trojan节点/Shadowrocket节点/SSR节点/Clash节点/V2ray节点节点推荐，V2rayC梯子购买推荐</a></p>
     </div>
 <h4>FAQ</h4>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>VMess AEAD 加密在高封锁地区的优势？</h5></div>
-    <div class="panel-body">
-        AEAD 加密可防止数据篡改和流量特征泄露，降低被 DPI 检测风险。在高封锁地区使用，可保证节点长期稳定可用，同时提升数据传输安全性和访问可靠性。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>WinXray 的 PAC 模式如何优化访问？</h5></div>
-    <div class="panel-body">
-        PAC 模式可根据规则动态判断流量是否走代理，无需手动切换节点。适合国内外混合访问场景，提高访问速度和稳定性，减少误操作导致的访问失败。<hr />    </div>
-</div>
-<div class="panel panel-default">
     <div class="panel-heading"><h5>Mellow 如何配置透明代理？</h5></div>
     <div class="panel-body">
         Mellow 通过 tun2socks 技术实现透明代理。只需在配置文件中启用该功能，系统所有网络流量都会自动转发到代理内核，用户无需手动设置系统代理参数。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>VLESS + Reality 模式相比普通 TLS 有什么优势？</h5></div>
-    <div class="panel-body">
-        Reality 模式通过伪装握手和真实网站特征，提高流量隐蔽性，难以被 DPI 检测。TLS 模式更侧重加密和传输效率，Reality 更适合高封锁网络环境。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>VMess 与 Shadowsocks 哪个更安全？</h5></div>
-    <div class="panel-body">
-        VMess 使用动态认证机制，防止重放攻击，而 Shadowsocks 依赖静态密钥。总体来说，VMess 的安全性更强，尤其在应对 DPI 检测和中间人攻击时表现更优。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Sing-box 的配置文件与 Clash 有何区别？</h5></div>
@@ -186,9 +165,19 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
         WinXray 支持手动添加节点、从 URL 订阅导入节点，以及批量导入 JSON 配置文件。用户可以直接复制订阅地址或粘贴节点链接，程序会自动解析并添加到节点列表中，操作十分便捷。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Clash 的延迟检测如何帮助节点选择？</h5></div>
+    <div class="panel-heading"><h5>VLESS + Reality 模式相比普通 TLS 有什么优势？</h5></div>
     <div class="panel-body">
-        Clash 会定期测速节点延迟，并根据策略组自动选择延迟最低节点处理流量。可避免访问高延迟或失效节点，提高网页、视频和游戏访问速度及稳定性。<hr />    </div>
+        Reality 模式通过伪装握手和真实网站特征，提高流量隐蔽性，难以被 DPI 检测。TLS 模式更侧重加密和传输效率，Reality 更适合高封锁网络环境。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>WinXray 的 PAC 模式如何优化访问？</h5></div>
+    <div class="panel-body">
+        PAC 模式可根据规则动态判断流量是否走代理，无需手动切换节点。适合国内外混合访问场景，提高访问速度和稳定性，减少误操作导致的访问失败。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>VMess 与 Shadowsocks 哪个更安全？</h5></div>
+    <div class="panel-body">
+        VMess 使用动态认证机制，防止重放攻击，而 Shadowsocks 依赖静态密钥。总体来说，VMess 的安全性更强，尤其在应对 DPI 检测和中间人攻击时表现更优。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>QuantumultX 的重写脚本可以实现哪些功能？</h5></div>
@@ -196,9 +185,19 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
         QuantumultX 支持 JavaScript 重写脚本，可修改请求头、响应内容、跳转 URL、广告屏蔽和定制化流量处理。结合策略组可实现个性化网络访问和优化，提高用户体验。<hr />    </div>
 </div>
 <div class="panel panel-default">
+    <div class="panel-heading"><h5>Clash 的延迟检测如何帮助节点选择？</h5></div>
+    <div class="panel-body">
+        Clash 会定期测速节点延迟，并根据策略组自动选择延迟最低节点处理流量。可避免访问高延迟或失效节点，提高网页、视频和游戏访问速度及稳定性。<hr />    </div>
+</div>
+<div class="panel panel-default">
     <div class="panel-heading"><h5>PassWall2 如何结合节点测速优化策略组？</h5></div>
     <div class="panel-body">
-        PassWall2 会定期测速节点延迟和丢包率，并根据策略组自动选择最优节点。通过测速和自动切换，可保证网页、视频和游戏流量走低延迟节点，提升整体网络体验。    </div>
+        PassWall2 会定期测速节点延迟和丢包率，并根据策略组自动选择最优节点。通过测速和自动切换，可保证网页、视频和游戏流量走低延迟节点，提升整体网络体验。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>VMess AEAD 加密在高封锁地区的优势？</h5></div>
+    <div class="panel-body">
+        AEAD 加密可防止数据篡改和流量特征泄露，降低被 DPI 检测风险。在高封锁地区使用，可保证节点长期稳定可用，同时提升数据传输安全性和访问可靠性。    </div>
 </div>
 <div class="panel panel-default mt-5">
     <div class="panel-heading">
@@ -227,16 +226,16 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
     </div>
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
-                        <li class="py-2"><a href="/free-nodes/2026-3-6-clash-node.htm" title="VPN天下 - 3月6日18M/S|免费Clash节点/Singbox节点/Trojan节点/SSR节点/V2ray节点/Shadowrocket节点节点推荐，V2rayC梯子购买推荐">VPN天下 - 3月6日18M/S|免费Clash节点/Singbox节点/Trojan节点/SSR节点/V2ray节点/Shadowrocket节点节点推荐，V2rayC梯子购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-3-20-clash-verge-rev-node.htm" title="VPN天下 - 3月20日21.9M/S|免费Shadowrocket节点/Trojan节点/SSR节点/V2ray节点/Singbox节点/Clash节点节点推荐，V2rayC梯子购买推荐">VPN天下 - 3月20日21.9M/S|免费Shadowrocket节点/Trojan节点/SSR节点/V2ray节点/Singbox节点/Clash节点节点推荐，V2rayC梯子购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-3-18-clash-verge-rev-windows.htm" title="VPN天下 - 3月18日18.6M/S|免费Singbox节点/SSR节点/Clash节点/Trojan节点/Shadowrocket节点/V2ray节点节点推荐，V2rayC梯子购买推荐">VPN天下 - 3月18日18.6M/S|免费Singbox节点/SSR节点/Clash节点/Trojan节点/Shadowrocket节点/V2ray节点节点推荐，V2rayC梯子购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-4-9-clash-meta-github.htm" title="VPN天下 - 4月9日21.6M/S|免费Clash节点/Trojan节点/Singbox节点/V2ray节点/Shadowrocket节点/SSR节点节点推荐，V2rayC梯子购买推荐">VPN天下 - 4月9日21.6M/S|免费Clash节点/Trojan节点/Singbox节点/V2ray节点/Shadowrocket节点/SSR节点节点推荐，V2rayC梯子购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-3-26-clash-v2ray-ss-ssr.htm" title="VPN天下 - 3月26日20.8M/S|免费Clash节点/SSR节点/V2ray节点/Trojan节点/Shadowrocket节点/Singbox节点节点推荐，V2rayC梯子购买推荐">VPN天下 - 3月26日20.8M/S|免费Clash节点/SSR节点/V2ray节点/Trojan节点/Shadowrocket节点/Singbox节点节点推荐，V2rayC梯子购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-3-25-clash-node-github.htm" title="VPN天下 - 3月25日21.9M/S|免费SSR节点/Shadowrocket节点/V2ray节点/Singbox节点/Trojan节点/Clash节点节点推荐，V2rayC梯子购买推荐">VPN天下 - 3月25日21.9M/S|免费SSR节点/Shadowrocket节点/V2ray节点/Singbox节点/Trojan节点/Clash节点节点推荐，V2rayC梯子购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-3-11-free-node-subscribe.htm" title="VPN天下 - 3月11日22.2M/S|免费SSR节点/Trojan节点/Clash节点/Singbox节点/V2ray节点/Shadowrocket节点节点推荐，V2rayC梯子购买推荐">VPN天下 - 3月11日22.2M/S|免费SSR节点/Trojan节点/Clash节点/Singbox节点/V2ray节点/Shadowrocket节点节点推荐，V2rayC梯子购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-4-13-free-node-subscribe.htm" title="VPN天下 - 4月13日22.3M/S|免费Singbox节点/Trojan节点/Shadowrocket节点/SSR节点/Clash节点/V2ray节点节点推荐，V2rayC梯子购买推荐">VPN天下 - 4月13日22.3M/S|免费Singbox节点/Trojan节点/Shadowrocket节点/SSR节点/Clash节点/V2ray节点节点推荐，V2rayC梯子购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-3-27-clash-verge-rev-nodes.htm" title="VPN天下 - 3月27日19.2M/S|免费Trojan节点/Singbox节点/Shadowrocket节点/V2ray节点/SSR节点/Clash节点节点推荐，V2rayC梯子购买推荐">VPN天下 - 3月27日19.2M/S|免费Trojan节点/Singbox节点/Shadowrocket节点/V2ray节点/SSR节点/Clash节点节点推荐，V2rayC梯子购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-3-9-clash-verge-rev-windows.htm" title="VPN天下 - 3月9日19.9M/S|免费Trojan节点/V2ray节点/Shadowrocket节点/Singbox节点/SSR节点/Clash节点节点推荐，V2rayC梯子购买推荐">VPN天下 - 3月9日19.9M/S|免费Trojan节点/V2ray节点/Shadowrocket节点/Singbox节点/SSR节点/Clash节点节点推荐，V2rayC梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-4-18-clash-node-github.htm" title="VPN天下 - 4月18日22.3M/S|免费Clash节点/Trojan节点/Shadowrocket节点/V2ray节点/Singbox节点/SSR节点节点推荐，V2rayC梯子购买推荐">VPN天下 - 4月18日22.3M/S|免费Clash节点/Trojan节点/Shadowrocket节点/V2ray节点/Singbox节点/SSR节点节点推荐，V2rayC梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-4-14-clash-verge-rev-node-github.htm" title="VPN天下 - 4月14日19.3M/S|免费V2ray节点/Singbox节点/Shadowrocket节点/Clash节点/SSR节点/Trojan节点节点推荐，V2rayC梯子购买推荐">VPN天下 - 4月14日19.3M/S|免费V2ray节点/Singbox节点/Shadowrocket节点/Clash节点/SSR节点/Trojan节点节点推荐，V2rayC梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-5-3-clash-node.htm" title="VPN天下 - 5月3日23M/S|免费Singbox节点/Shadowrocket节点/V2ray节点/Trojan节点/SSR节点/Clash节点节点推荐，V2rayC梯子购买推荐">VPN天下 - 5月3日23M/S|免费Singbox节点/Shadowrocket节点/V2ray节点/Trojan节点/SSR节点/Clash节点节点推荐，V2rayC梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-4-30-free-node-subscribe.htm" title="VPN天下 - 4月30日18.7M/S|免费Trojan节点/V2ray节点/SSR节点/Singbox节点/Shadowrocket节点/Clash节点节点推荐，V2rayC梯子购买推荐">VPN天下 - 4月30日18.7M/S|免费Trojan节点/V2ray节点/SSR节点/Singbox节点/Shadowrocket节点/Clash节点节点推荐，V2rayC梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-4-12-node-share.htm" title="VPN天下 - 4月12日18.1M/S|免费Clash节点/Singbox节点/SSR节点/Shadowrocket节点/Trojan节点/V2ray节点节点推荐，V2rayC梯子购买推荐">VPN天下 - 4月12日18.1M/S|免费Clash节点/Singbox节点/SSR节点/Shadowrocket节点/Trojan节点/V2ray节点节点推荐，V2rayC梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-4-22-clash-stash-node.htm" title="VPN天下 - 4月22日22.4M/S|免费Singbox节点/Shadowrocket节点/Trojan节点/SSR节点/Clash节点/V2ray节点节点推荐，V2rayC梯子购买推荐">VPN天下 - 4月22日22.4M/S|免费Singbox节点/Shadowrocket节点/Trojan节点/SSR节点/Clash节点/V2ray节点节点推荐，V2rayC梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-4-28-clash-node.htm" title="VPN天下 - 4月28日21.2M/S|免费Clash节点/Singbox节点/Trojan节点/Shadowrocket节点/SSR节点/V2ray节点节点推荐，V2rayC梯子购买推荐">VPN天下 - 4月28日21.2M/S|免费Clash节点/Singbox节点/Trojan节点/Shadowrocket节点/SSR节点/V2ray节点节点推荐，V2rayC梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-5-10-clash-verge-rev-node-share.htm" title="VPN天下 - 5月10日19.6M/S|免费Shadowrocket节点/V2ray节点/Singbox节点/SSR节点/Clash节点/Trojan节点节点推荐，V2rayC梯子购买推荐">VPN天下 - 5月10日19.6M/S|免费Shadowrocket节点/V2ray节点/Singbox节点/SSR节点/Clash节点/Trojan节点节点推荐，V2rayC梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-5-6-free-node-subscribe.htm" title="VPN天下 - 5月6日19.4M/S|免费Clash节点/V2ray节点/Trojan节点/SSR节点/Singbox节点/Shadowrocket节点节点推荐，V2rayC梯子购买推荐">VPN天下 - 5月6日19.4M/S|免费Clash节点/V2ray节点/Trojan节点/SSR节点/Singbox节点/Shadowrocket节点节点推荐，V2rayC梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-5-7-clash-node-daily-updates.htm" title="VPN天下 - 5月7日19.1M/S|免费Shadowrocket节点/V2ray节点/Singbox节点/Clash节点/Trojan节点/SSR节点节点推荐，V2rayC梯子购买推荐">VPN天下 - 5月7日19.1M/S|免费Shadowrocket节点/V2ray节点/Singbox节点/Clash节点/Trojan节点/SSR节点节点推荐，V2rayC梯子购买推荐</a></li>
                     </ul>
     </div>
 </div>
@@ -248,10 +247,10 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">8</span> <a href="/date/2026-04/" title="2026-04 归档">2026-04</a></h4>
+                <h4><span class="badge" style="float: right;">11</span> <a href="/date/2026-05/" title="2026-05 归档">2026-05</a></h4>
             </li>
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">26</span> <a href="/date/2026-03/" title="2026-03 归档">2026-03</a></h4>
+                <h4><span class="badge" style="float: right;">19</span> <a href="/date/2026-04/" title="2026-04 归档">2026-04</a></h4>
             </li>
                     </ul>
     </div>
